@@ -350,4 +350,57 @@ F 3 "" H 1600 6900 50  0001 C CNN
 	1    1600 6900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1800 850  1900 850 
+Wire Wire Line
+	1900 850  2000 850 
+Connection ~ 1900 850 
+Wire Wire Line
+	2000 850  2100 850 
+Connection ~ 2000 850 
+Wire Wire Line
+	2100 850  2200 850 
+Connection ~ 2100 850 
+Wire Wire Line
+	2200 850  2300 850 
+Connection ~ 2200 850 
+Wire Wire Line
+	2300 850  2300 750 
+Connection ~ 2300 850 
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DEAFF7F
+P 2300 750
+F 0 "#PWR?" H 2300 600 50  0001 C CNN
+F 1 "+3.3V" H 2315 923 50  0000 C CNN
+F 2 "" H 2300 750 50  0001 C CNN
+F 3 "" H 2300 750 50  0001 C CNN
+	1    2300 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 4750 1900 4750
+Wire Wire Line
+	2000 4750 1900 4750
+Connection ~ 1900 4750
+Wire Wire Line
+	2000 4750 2100 4750
+Connection ~ 2000 4750
+Connection ~ 2100 4750
+Wire Wire Line
+	2100 4750 2200 4750
+Wire Wire Line
+	2200 4750 2200 4850
+Connection ~ 2200 4750
+$Comp
+L power:GND #PWR?
+U 1 1 5DEBBFB0
+P 2200 4850
+F 0 "#PWR?" H 2200 4600 50  0001 C CNN
+F 1 "GND" H 2205 4677 50  0000 C CNN
+F 2 "" H 2200 4850 50  0001 C CNN
+F 3 "" H 2200 4850 50  0001 C CNN
+	1    2200 4850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
