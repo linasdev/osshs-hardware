@@ -1,4 +1,4 @@
-# Open-source Smart House System
+# Hardware for the Open-source Smart House System
 TODO: Add project description.
 
 ## Built With
